@@ -1,0 +1,70 @@
+body {
+  background-color: #909396;
+}
+
+.home-main {
+  width: 100%;
+  margin-top: 20px;
+}
+.home-main .container {
+  width: 60%;
+  border-radius: 20px;
+  margin: auto;
+  padding: 40px;
+  border: 20px solid #181D31;
+  background-color: rgba(255, 255, 255, 0.575);
+}
+.home-main .main-header {
+  width: 100%;
+  text-align: center;
+}
+.home-main .main-intro {
+  width: 100%;
+  border: 1px solid rgb(85, 84, 84);
+  border-radius: 30px;
+  text-align: center;
+}
+.home-main .main-projects {
+  width: 100%;
+}
+.home-main .main-projects .projects-user {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid #181D31;
+  border-radius: 20px;
+}
+.home-main .main-projects .projects-user .projects-left {
+  border-right: 1px solid #181D31;
+  width: 20%;
+  height: auto;
+  position: relative;
+}
+.home-main .main-projects .projects-user .projects-left .left-inside {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid #181D31;
+  border-radius: 50%;
+  padding: 15px;
+}
+.home-main .main-projects .projects-user .projects-right {
+  width: 80%;
+  padding-left: 40px;
+}
+.home-main .main-projects .projects-user .projects-right .right-body {
+  width: 100%;
+  display: flex;
+}
+.home-main .main-projects .projects-user .projects-right .right-body .right-body-list {
+  padding-right: 10px;
+}
+.home-main .main-projects .projects-user .projects-right .right-body .right-body-list a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
