@@ -1,5 +1,5 @@
 body{
-    background-color: #909396;
+    background-color: #f8f8f8;
 }
 .home-main{
 
@@ -8,12 +8,12 @@ body{
    
     
     .container{
-        width: 60%;
+        width: 85%;
         border-radius: 20px;
         margin: auto;
         padding: 40px;
-        border: 20px solid #181D31;
-        background-color: rgba(255, 255, 255, 0.575);
+        border: 20px solid #6f76fc;
+        background-color: #f8f8f8;
     }
     .main-header{
         width: 100%;
@@ -24,7 +24,7 @@ body{
 
     .main-intro{
         width: 100%;
-        border: 1px solid rgb(85, 84, 84);
+        border: 1px solid #6f76fc;
         border-radius: 30px;
         text-align: center;
     }
@@ -39,11 +39,11 @@ body{
             display: flex;
             justify-content: space-around;
 
-            border: 5px solid #181D31;
+            border: 5px solid #6f76fc;
             border-radius: 20px;
             .projects-left{
 
-                border-right: 1px solid #181D31;
+                border-right: 1px solid #6f76fc;
                 width: 20%;
                 height: auto;
                 position: relative;
@@ -55,7 +55,7 @@ body{
                     height: 80px;
                     transform: translate(-50%,-50%);
                     text-align: center;
-                    border: 1px solid #181D31;
+                    border: 1px solid #6f76fc;
                     border-radius: 50%;
                     padding: 15px;
 
@@ -64,18 +64,42 @@ body{
 
             .projects-right{
                 width: 80%;
-                padding-left: 40px;
+                padding-left: 20px;
 
                 .right-body{
                     width: 100%;
                     display: flex;
                    
                     .right-body-list{
-                        padding-right: 10px;
+                        padding: 0 10px;
+                        
+
+                        .btnA{
+
+                            font-size: 1.1em;
+                            padding: 10px;
+                            margin-top: 15px;
+                            border: 1px solid #6f76fc;
+                            border-radius: 10px;
+                            background-color: white;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+
+                                background-color: #6f76fc;
+                            
+                                color: white;
+                               
+                            }
+                        }
 
                         a{
                             text-decoration: none;
                             color: black;
+                            transition: .3s ease-in-out;
+
+                            &:hover{
+                                font-size: 1.1em;
+                            }
                         }
                     }
                 }
